@@ -3,8 +3,6 @@ A hybrid recommendation system combining High Utility Itemset Mining (EIHI) and 
 
 ---
 
-### README.md  
-
 # **Hybrid Recommendation System**  
 
 This project presents the design and implementation of a hybrid recommendation system that combines various approaches to deliver accurate and personalized recommendations.  
