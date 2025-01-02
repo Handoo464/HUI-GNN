@@ -29,25 +29,34 @@ The system integrates the following components:
 ## **Benefits**  
 - Improved system accuracy.  
 - Enhanced flexibility to meet diverse user needs.  
-- Scalable and robust architecture for real-world applications.  
+- Scalable and robust architecture for real-world applications.
 
-## **Getting Started**  
-- Clone the repository:  
-  ```bash  
-  git clone https://github.com/<your-username>/<repo-name>.git  
-  ```  
-- Follow the setup instructions to run the hybrid recommendation system.  
+### Experimental Results  
+
+The hybrid recommendation system was evaluated on accuracy, revenue, and the impact of integrating High Utility Itemset Mining (HUI).  
+
+- **Accuracy:**  
+  - SVD achieved the best accuracy with the lowest RMSE (0.9125), followed by User-Based and Item-Based models.  
+  - Content KNN showed the lowest accuracy, limited by its reliance on textual descriptions.  
+
+- **Revenue:**  
+  - HUI integration significantly boosted revenue across all models.  
+  - Item-Based + HUI recorded the highest revenue (41.35 GBP), with an increase of 21.29 GBP.  
+
+- **GNN Performance:**  
+  - GNN + HUI reduced cross-entropy error but showed a slight trade-off in accuracy, highlighting optimization opportunities.  
+
+HUI integration demonstrated clear improvements in both accuracy and revenue, validating its effectiveness in enhancing recommendation systems.
+
+![image](https://github.com/user-attachments/assets/f5966fe3-208b-4037-92f6-e75d9706d1bf)
 
 ## **Technologies Used**  
 - High Utility Itemset Mining (EIHI)  
 - Content-Based (CB) and Collaborative Filtering (CF)  
 - Graph Neural Networks (GNN)  
 
-## **Contributing**  
-Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.  
+## **Contributing** : @ngoctrang315
 
-## **License**  
-This project is licensed under the [MIT License](LICENSE).  
 
 ---  
 
